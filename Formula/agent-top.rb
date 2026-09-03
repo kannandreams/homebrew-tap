@@ -3,33 +3,36 @@
 class AgentTop < Formula
   desc "htop for local coding agents: processes, subagents, MCP servers, tokens and cost"
   homepage "https://github.com/kannandreams/agent-top"
-  version "0.1.6"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.1.6/agent-top-v0.1.6-aarch64-apple-darwin.tar.gz"
-      sha256 "b71e294aeaad9637f662be116456c0f98fe00d67164a03aa241ff7a850667d45"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.2.0/agent-top-v0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "369dc5837c21dd758c7aa69453e301bc2c6704d54a820e7d4ebef38a40de4208"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.1.6/agent-top-v0.1.6-x86_64-apple-darwin.tar.gz"
-      sha256 "e82ba1ed9735d9371cf61adc692add1bf493f75775dc722d2ea6157060cd9813"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.2.0/agent-top-v0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "3c7e9d6b5f55055c52a8b6e4019d73dba651621516530599262b5a734ea12f87"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.1.6/agent-top-v0.1.6-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "1157fc06a076c117c54185784702e534fca5509657e389c8d3becf0fd99dfc16"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.2.0/agent-top-v0.2.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "0ddf7893f2b0d8c4920b75ca9c7f4975a4ff7ed3df6044a220c0fce96067d5aa"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.1.6/agent-top-v0.1.6-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "774c513213b8a9ccab750723295f2c027136bc74c284dccd4b535bfa34cfd070"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.2.0/agent-top-v0.2.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "75fa3b214b685f65773138c6ac22f6774390b8e875c8acc3ab3879b9f52179df"
     end
   end
 
   def install
     bin.install "agent-top"
+    # Tab completion for every flag, generated from the binary itself so it can
+    # never drift from the CLI it describes.
+    generate_completions_from_executable(bin/"agent-top", "--completions", shells: [:bash, :zsh, :fish])
   end
 
   test do
