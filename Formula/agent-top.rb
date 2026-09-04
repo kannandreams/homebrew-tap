@@ -3,28 +3,28 @@
 class AgentTop < Formula
   desc "htop for local coding agents: processes, subagents, MCP servers, tokens and cost"
   homepage "https://github.com/kannandreams/agent-top"
-  version "0.3.0"
+  version "0.3.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.3.0/agent-top-v0.3.0-aarch64-apple-darwin.tar.gz"
-      sha256 "d7c673bd9d8803c3a7c534fc078cda7be79b79a43ae14228daf8651dae78c202"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.3.1/agent-top-v0.3.1-aarch64-apple-darwin.tar.gz"
+      sha256 "756e171cd061a3fb195b6d0f466e566d43eec40fd4534384cd3d02f1b156815f"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.3.0/agent-top-v0.3.0-x86_64-apple-darwin.tar.gz"
-      sha256 "cc8ab5189555d3babb62d6e3745b686462779beed5b9794ffe0876389ddccfc5"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.3.1/agent-top-v0.3.1-x86_64-apple-darwin.tar.gz"
+      sha256 "4a4a847aa14713b98e0864fd993b8cb39e425cd47189173882a9e181bd47d89b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.3.0/agent-top-v0.3.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "c399cfcb02baada0121ad9233d552a17e68eb85ef0b100070de638e36a2351f2"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.3.1/agent-top-v0.3.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "89a4220186352b49e1ce53f958a33e894727854c08ccb57c492235137d54dcbc"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.3.0/agent-top-v0.3.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "1455acc1220e7b745e4683c32a7c4dc8ceaa5f8a7b6bb8d51466a7ed997ea4aa"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.3.1/agent-top-v0.3.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "7d1bf7e36a87c70bc249c1dd9765479c42c744049b7054e606219d7571822479"
     end
   end
 
