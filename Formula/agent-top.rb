@@ -3,28 +3,28 @@
 class AgentTop < Formula
   desc "htop for local coding agents: processes, subagents, MCP servers, tokens and cost"
   homepage "https://github.com/kannandreams/agent-top"
-  version "0.10.2"
+  version "0.11.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.10.2/agent-top-v0.10.2-aarch64-apple-darwin.tar.gz"
-      sha256 "de80a6bfc88ebc16093c558ef3bab7e4b9c1b04497fbb83aa4ba8da1e304f58b"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.11.0/agent-top-v0.11.0-aarch64-apple-darwin.tar.gz"
+      sha256 "d5d17ff9344ef6e2f9c9af23833daa867836d90e0418db2105d6c511ea47da6c"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.10.2/agent-top-v0.10.2-x86_64-apple-darwin.tar.gz"
-      sha256 "3891088ae0fb945f4a1a292295c538c373f360f0cc3f10845751898d05e8b787"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.11.0/agent-top-v0.11.0-x86_64-apple-darwin.tar.gz"
+      sha256 "b57f24da34b470a799ce224dc68b63e35fae788c0ba39cd47aa078fad8fc7e43"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.10.2/agent-top-v0.10.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "346501947bd8bbdfb66fce39705f080493a120e0668d19f3e4ebb9dff6916665"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.11.0/agent-top-v0.11.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "c0d3d985e5c2bf67d3bd27bd805bde0573c82f1709e8f6ca521d689745a62891"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.10.2/agent-top-v0.10.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b5aaa49c68c20bf91164acce27e94ad2ecbe51f95b304a334899c8578733ee68"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.11.0/agent-top-v0.11.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "7f6f92960cd581eaa7c9073e611b9b51963deaccb4778888dbe68003df5b81a7"
     end
   end
 
