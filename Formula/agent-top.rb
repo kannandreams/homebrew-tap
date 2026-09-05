@@ -3,28 +3,28 @@
 class AgentTop < Formula
   desc "htop for local coding agents: processes, subagents, MCP servers, tokens and cost"
   homepage "https://github.com/kannandreams/agent-top"
-  version "0.10.0"
+  version "0.10.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.10.0/agent-top-v0.10.0-aarch64-apple-darwin.tar.gz"
-      sha256 "58cd338c460962d163538734cd985f91bbad3960dc95c4ea87aaaafce25ff132"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.10.1/agent-top-v0.10.1-aarch64-apple-darwin.tar.gz"
+      sha256 "574b3e618cc1eff425a384c2a002f7d0373651a598b94a6ca5814a0bef5240ac"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.10.0/agent-top-v0.10.0-x86_64-apple-darwin.tar.gz"
-      sha256 "a28c0cf2f47c430d8c01a781616920e63bd139687c9b64cb653e89c51c5f30c7"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.10.1/agent-top-v0.10.1-x86_64-apple-darwin.tar.gz"
+      sha256 "b1dacb6057f8ebfc031955cc7467289ceef56b00e523c6fe4cc3622441b895bf"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.10.0/agent-top-v0.10.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "5f0a9a80b88ba7057e1c03c94e8f2d42aa8f4e1c995d7e047794ee5a43a4491d"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.10.1/agent-top-v0.10.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "a70160cff67f3895dd5fd074fa2f69aa056a75b505668beb659d604a3d7c9cb7"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.10.0/agent-top-v0.10.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "1ee8c127c42ec6475a510a921a5ccd491f0f25fdab06ed6d4bda5a82a5c75605"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.10.1/agent-top-v0.10.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "7e20056d29b80513ec378b117f000e7f7e93c626137cbae1d66c1701697361a6"
     end
   end
 
