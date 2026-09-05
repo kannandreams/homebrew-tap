@@ -3,28 +3,28 @@
 class AgentTop < Formula
   desc "htop for local coding agents: processes, subagents, MCP servers, tokens and cost"
   homepage "https://github.com/kannandreams/agent-top"
-  version "0.12.1"
+  version "0.13.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.12.1/agent-top-v0.12.1-aarch64-apple-darwin.tar.gz"
-      sha256 "725c6f9b0cc967acbf1f9e618c88599a4fd504ce7afd7b72085256a6b244aa53"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.13.0/agent-top-v0.13.0-aarch64-apple-darwin.tar.gz"
+      sha256 "b207603900c35e1cb55433e9eb57cf7ad906322a6da3293e4792ff5a5937e9b6"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.12.1/agent-top-v0.12.1-x86_64-apple-darwin.tar.gz"
-      sha256 "4b667e668c61a25f288d3fd330f06f147e229628b0c4e29d77885feceaa0e1e2"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.13.0/agent-top-v0.13.0-x86_64-apple-darwin.tar.gz"
+      sha256 "60936dda3dd9a9f2c98f6e44b4ecb13ee76130260460e4a054b3167343eab210"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.12.1/agent-top-v0.12.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "c1eb1407c1b98f28d1ffeb7b7b6ab141cd2337153a67f25865ecfbcce2a0e287"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.13.0/agent-top-v0.13.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "72cb0d760903aae3bcca7843d6c5a0f4d66926586fba117f2d4ee485fea501c6"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.12.1/agent-top-v0.12.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "257d419d55bc7894c1aae842052a86da585847cd663cb31f602a30f24ba86d48"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.13.0/agent-top-v0.13.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "7f24cee770ba03fed6949ad17fbbb41e32ba2cb4107b9d2cec465342de599098"
     end
   end
 
