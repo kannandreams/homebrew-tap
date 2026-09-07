@@ -3,28 +3,28 @@
 class AgentTop < Formula
   desc "htop for local coding agents: processes, subagents, MCP servers, tokens and cost"
   homepage "https://github.com/kannandreams/agent-top"
-  version "0.13.0"
+  version "0.14.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.13.0/agent-top-v0.13.0-aarch64-apple-darwin.tar.gz"
-      sha256 "b207603900c35e1cb55433e9eb57cf7ad906322a6da3293e4792ff5a5937e9b6"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.14.0/agent-top-v0.14.0-aarch64-apple-darwin.tar.gz"
+      sha256 "8c33e939cbb3d18fbbae693e4e38383deabd4bbc6af6f014534c9ec4e08cc603"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.13.0/agent-top-v0.13.0-x86_64-apple-darwin.tar.gz"
-      sha256 "60936dda3dd9a9f2c98f6e44b4ecb13ee76130260460e4a054b3167343eab210"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.14.0/agent-top-v0.14.0-x86_64-apple-darwin.tar.gz"
+      sha256 "af2276be90978155a4fa6e915054b0d4dab6f5e955f32bc4d1354449fd07cf13"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.13.0/agent-top-v0.13.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "72cb0d760903aae3bcca7843d6c5a0f4d66926586fba117f2d4ee485fea501c6"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.14.0/agent-top-v0.14.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "31bf8b4a7e51369834f007c02dd50dc7fbbb35a3e44cb02b563734c96df0693d"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.13.0/agent-top-v0.13.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "7f24cee770ba03fed6949ad17fbbb41e32ba2cb4107b9d2cec465342de599098"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.14.0/agent-top-v0.14.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "93937d650c8b303e3733a56675ebaeceee95eca035b23da384dbdf720f73abc6"
     end
   end
 
