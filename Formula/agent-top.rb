@@ -3,28 +3,28 @@
 class AgentTop < Formula
   desc "htop for local coding agents: processes, subagents, MCP servers, tokens and cost"
   homepage "https://github.com/kannandreams/agent-top"
-  version "0.16.0"
+  version "0.17.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.16.0/agent-top-v0.16.0-aarch64-apple-darwin.tar.gz"
-      sha256 "cfda7a677c247f09bbbbc683e61c66e315dd203dcc2b7adf059bca3c4b65cd56"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.17.0/agent-top-v0.17.0-aarch64-apple-darwin.tar.gz"
+      sha256 "687220070b600891e7727f28c5a9b707bef6b449e6d4e45c5c2f2b9fa85ec526"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.16.0/agent-top-v0.16.0-x86_64-apple-darwin.tar.gz"
-      sha256 "75259b46d0bad393fd8f624f86b8df472e31784f677abb1a516385a71907b66b"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.17.0/agent-top-v0.17.0-x86_64-apple-darwin.tar.gz"
+      sha256 "cd57898fe7642fcded104aa17275a9a7f4aaa96abac8959e929457467da9ee86"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.16.0/agent-top-v0.16.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "1f1a4eabefe95998bc9b95d580f81c8542e7bec5dd6708efb49830f73d15c2b4"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.17.0/agent-top-v0.17.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "d54d5471443d8778b4316c10b1ddc542a368a6bba995350ab1bc96f64a611407"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.16.0/agent-top-v0.16.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ac9190abda78dbb424a6bf07160ee2d6dd79f44bf73b0b7b06ea92b44f5789d0"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.17.0/agent-top-v0.17.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "5128d8dbded143f83dad98945aaf37b60a69d81be29129b9bf109d5fab082678"
     end
   end
 
