@@ -3,28 +3,28 @@
 class AgentTop < Formula
   desc "htop for local coding agents: processes, subagents, MCP servers, tokens and cost"
   homepage "https://github.com/kannandreams/agent-top"
-  version "0.17.0"
+  version "0.18.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.17.0/agent-top-v0.17.0-aarch64-apple-darwin.tar.gz"
-      sha256 "687220070b600891e7727f28c5a9b707bef6b449e6d4e45c5c2f2b9fa85ec526"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.18.0/agent-top-v0.18.0-aarch64-apple-darwin.tar.gz"
+      sha256 "80457e4d39f4ad49e4576f90e8d00604d45c35504099bc0b1d46f1a95a3d27be"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.17.0/agent-top-v0.17.0-x86_64-apple-darwin.tar.gz"
-      sha256 "cd57898fe7642fcded104aa17275a9a7f4aaa96abac8959e929457467da9ee86"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.18.0/agent-top-v0.18.0-x86_64-apple-darwin.tar.gz"
+      sha256 "7accb38d15bc53a71ea57bed1f8e5e5e76f657396dc361d772641ed5fc9a5abe"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.17.0/agent-top-v0.17.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "d54d5471443d8778b4316c10b1ddc542a368a6bba995350ab1bc96f64a611407"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.18.0/agent-top-v0.18.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "539e75e3feeefa44bc858394a45b487cf6371b525422445ec510a3079ad45aef"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.17.0/agent-top-v0.17.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "5128d8dbded143f83dad98945aaf37b60a69d81be29129b9bf109d5fab082678"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.18.0/agent-top-v0.18.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f47e383ccdbe3df12650c3f740f21eb090bc66f7f2b9cad258023e32d54b7b21"
     end
   end
 
