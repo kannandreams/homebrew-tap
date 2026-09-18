@@ -3,28 +3,28 @@
 class AgentTop < Formula
   desc "htop for local coding agents: processes, subagents, MCP servers, tokens and cost"
   homepage "https://github.com/kannandreams/agent-top"
-  version "0.19.0"
+  version "0.19.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.19.0/agent-top-v0.19.0-aarch64-apple-darwin.tar.gz"
-      sha256 "61271c1e317303335ca7e734c95855c24908089aa925078c6549cab53514b6c4"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.19.1/agent-top-v0.19.1-aarch64-apple-darwin.tar.gz"
+      sha256 "67bae0743a6bf5919b824e1f2c31463379f1651c498da7aeaba1e817488b84d9"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.19.0/agent-top-v0.19.0-x86_64-apple-darwin.tar.gz"
-      sha256 "4d841d7504707fad84428bcb0e83fc9a0d27391357aafca914aedce40cee17e5"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.19.1/agent-top-v0.19.1-x86_64-apple-darwin.tar.gz"
+      sha256 "2abee0a867625704f2deea88a29ac551c7c3b2cf18ee34c91c62954de9f8743a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.19.0/agent-top-v0.19.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "06bad214d81d65fe46fcf0882da92a4ff7564596f8da7a4bd30e57fe7d31f34f"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.19.1/agent-top-v0.19.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "556aac912c3507387612345688b73282aaa8de638c155e72b7d72e38aef41fce"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.19.0/agent-top-v0.19.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "9f50b71fef48253a19c9d26c93d36a25c615128773dd32b82ac948ef434015a4"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.19.1/agent-top-v0.19.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "ccb4f921927a52e8975535213c8d873af436f883cec23d17dae60077b285baea"
     end
   end
 
