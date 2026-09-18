@@ -3,28 +3,28 @@
 class AgentTop < Formula
   desc "htop for local coding agents: processes, subagents, MCP servers, tokens and cost"
   homepage "https://github.com/kannandreams/agent-top"
-  version "0.18.1"
+  version "0.19.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.18.1/agent-top-v0.18.1-aarch64-apple-darwin.tar.gz"
-      sha256 "53c5c22af14c1a2308f9c17bbd6d07995812f3ba6a65ed85ed07571f04caa8d9"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.19.0/agent-top-v0.19.0-aarch64-apple-darwin.tar.gz"
+      sha256 "61271c1e317303335ca7e734c95855c24908089aa925078c6549cab53514b6c4"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.18.1/agent-top-v0.18.1-x86_64-apple-darwin.tar.gz"
-      sha256 "1898ae9c1999316127f1129d99d4671dc6ed4352103bc65550d1527d52f43137"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.19.0/agent-top-v0.19.0-x86_64-apple-darwin.tar.gz"
+      sha256 "4d841d7504707fad84428bcb0e83fc9a0d27391357aafca914aedce40cee17e5"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.18.1/agent-top-v0.18.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "6f8400fa7ccc0d06822c3759efac3f0fba45e336dcbce920abd8524b6a723319"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.19.0/agent-top-v0.19.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "06bad214d81d65fe46fcf0882da92a4ff7564596f8da7a4bd30e57fe7d31f34f"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.18.1/agent-top-v0.18.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "aece6e18941969d19b7a06522fbfc3ec60b7e488611a777d1554c206d754455c"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.19.0/agent-top-v0.19.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "9f50b71fef48253a19c9d26c93d36a25c615128773dd32b82ac948ef434015a4"
     end
   end
 
