@@ -3,28 +3,28 @@
 class AgentTop < Formula
   desc "htop for local coding agents: processes, subagents, MCP servers, tokens and cost"
   homepage "https://github.com/kannandreams/agent-top"
-  version "0.20.0"
+  version "0.21.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.20.0/agent-top-v0.20.0-aarch64-apple-darwin.tar.gz"
-      sha256 "6868a6ecc91de32286c3d8529092f461c3f3dd36121bbccb1bcf552911304733"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.21.0/agent-top-v0.21.0-aarch64-apple-darwin.tar.gz"
+      sha256 "a0ec551fdb05a7f53c5837e6658051a0ce996554fe732b22548b218f1c041ff6"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.20.0/agent-top-v0.20.0-x86_64-apple-darwin.tar.gz"
-      sha256 "b2b3b4c27f6c42da10ab44fac719690f88fddf429629b3a5680c50d65a255c74"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.21.0/agent-top-v0.21.0-x86_64-apple-darwin.tar.gz"
+      sha256 "3c98b1ecf95eddf2adb835d2a48a5cfbce766ba3806a6eeaa0cfb753ec182cb3"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.20.0/agent-top-v0.20.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "7f57adfa12fd31ad4e71414e18ef503bec3bf7e78cd3d0949b13fffa663cff05"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.21.0/agent-top-v0.21.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "332927002c048007bd931d3758278270096bc6f86e940948abffa71e85f46e7c"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.20.0/agent-top-v0.20.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "29c9a42062a96933ba6b8001d226e05b7f27412d93fd6dd41321093e528aab83"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.21.0/agent-top-v0.21.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "6975141060eb756d43d5fc52720093e8d41a240c49734faee52423698e10cfcf"
     end
   end
 
