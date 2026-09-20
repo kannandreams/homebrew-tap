@@ -3,28 +3,28 @@
 class AgentTop < Formula
   desc "htop for local coding agents: processes, subagents, MCP servers, tokens and cost"
   homepage "https://github.com/kannandreams/agent-top"
-  version "0.19.1"
+  version "0.20.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.19.1/agent-top-v0.19.1-aarch64-apple-darwin.tar.gz"
-      sha256 "67bae0743a6bf5919b824e1f2c31463379f1651c498da7aeaba1e817488b84d9"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.20.0/agent-top-v0.20.0-aarch64-apple-darwin.tar.gz"
+      sha256 "6868a6ecc91de32286c3d8529092f461c3f3dd36121bbccb1bcf552911304733"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.19.1/agent-top-v0.19.1-x86_64-apple-darwin.tar.gz"
-      sha256 "2abee0a867625704f2deea88a29ac551c7c3b2cf18ee34c91c62954de9f8743a"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.20.0/agent-top-v0.20.0-x86_64-apple-darwin.tar.gz"
+      sha256 "b2b3b4c27f6c42da10ab44fac719690f88fddf429629b3a5680c50d65a255c74"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.19.1/agent-top-v0.19.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "556aac912c3507387612345688b73282aaa8de638c155e72b7d72e38aef41fce"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.20.0/agent-top-v0.20.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "7f57adfa12fd31ad4e71414e18ef503bec3bf7e78cd3d0949b13fffa663cff05"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.19.1/agent-top-v0.19.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ccb4f921927a52e8975535213c8d873af436f883cec23d17dae60077b285baea"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.20.0/agent-top-v0.20.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "29c9a42062a96933ba6b8001d226e05b7f27412d93fd6dd41321093e528aab83"
     end
   end
 
