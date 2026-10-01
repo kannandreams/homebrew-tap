@@ -3,28 +3,28 @@
 class AgentTop < Formula
   desc "htop for local coding agents: processes, subagents, MCP servers, tokens and cost"
   homepage "https://github.com/kannandreams/agent-top"
-  version "0.21.1"
+  version "0.21.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.21.1/agent-top-v0.21.1-aarch64-apple-darwin.tar.gz"
-      sha256 "8278f87bb0224ad0edd652b42969fe52b7755b93d854f43ac27df5cbefad6f99"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.21.2/agent-top-v0.21.2-aarch64-apple-darwin.tar.gz"
+      sha256 "82620565ecf62e7fe697724a8303a1c06b88eb2ea389969d72290aa978747023"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.21.1/agent-top-v0.21.1-x86_64-apple-darwin.tar.gz"
-      sha256 "762bb5b40abe992f07dc2f992821dff7533ecb6c8c6e0b3c96b554a62fade894"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.21.2/agent-top-v0.21.2-x86_64-apple-darwin.tar.gz"
+      sha256 "98e2da61e4fa40e28cfce8c6dfea61543990b7825b8232c8c30ecc57a3d7e3ef"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.21.1/agent-top-v0.21.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "b885a21264cce02096ecbbd39b623a4c1922c4d06ad6ba3ba931b17078623e8d"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.21.2/agent-top-v0.21.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "f4e07d4a75f5918d34ba37eb5e523fcd1e56712fd32831f9896ecf7e7ce3521d"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.21.1/agent-top-v0.21.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "2e41ff0481d902d27241124d0b6640c791b0e6790e8241b6852c79405a3661e3"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.21.2/agent-top-v0.21.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "5d07e1cf25b3afa5a67d5a643750588dceb5661e8204386fc67931b95b947ef9"
     end
   end
 
