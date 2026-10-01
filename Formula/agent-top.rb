@@ -3,28 +3,28 @@
 class AgentTop < Formula
   desc "htop for local coding agents: processes, subagents, MCP servers, tokens and cost"
   homepage "https://github.com/kannandreams/agent-top"
-  version "0.22.0"
+  version "0.22.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.22.0/agent-top-v0.22.0-aarch64-apple-darwin.tar.gz"
-      sha256 "05445b4f6f0a96530695f64a7d8e2d9a1587b23553ab0a2a87a821f47785736e"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.22.1/agent-top-v0.22.1-aarch64-apple-darwin.tar.gz"
+      sha256 "c46bdcbb7c806c066534ab9c461b362dae5a6658dcdfb7499404170a43e84d3c"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.22.0/agent-top-v0.22.0-x86_64-apple-darwin.tar.gz"
-      sha256 "5e7399651e469ac5d2c8f16771e0e127b2a363b5c141b6915d859a35a4059f05"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.22.1/agent-top-v0.22.1-x86_64-apple-darwin.tar.gz"
+      sha256 "549bdd8bcdb218b284c482f535f962c5403c64385f56df5a83c764502f04c413"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.22.0/agent-top-v0.22.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "9c88a457d7fa966964f3bf274d71c2312eefb593be158846633b0c0a745f8670"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.22.1/agent-top-v0.22.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "508a6feb3f3f9be7d35ee83ac235f2f57265fa269ee266350ea01da3fb22c406"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.22.0/agent-top-v0.22.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "5382542d75d33672b105157490afc6efd00fc4f2cf0764567ea85f2f8902d0a8"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.22.1/agent-top-v0.22.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "619032176f9837b5d4ad09f0b1673891f4c53db6f343f63ffbd922dba4f7ec7d"
     end
   end
 
