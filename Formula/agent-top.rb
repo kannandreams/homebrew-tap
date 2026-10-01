@@ -3,28 +3,28 @@
 class AgentTop < Formula
   desc "htop for local coding agents: processes, subagents, MCP servers, tokens and cost"
   homepage "https://github.com/kannandreams/agent-top"
-  version "0.21.2"
+  version "0.22.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.21.2/agent-top-v0.21.2-aarch64-apple-darwin.tar.gz"
-      sha256 "82620565ecf62e7fe697724a8303a1c06b88eb2ea389969d72290aa978747023"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.22.0/agent-top-v0.22.0-aarch64-apple-darwin.tar.gz"
+      sha256 "05445b4f6f0a96530695f64a7d8e2d9a1587b23553ab0a2a87a821f47785736e"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.21.2/agent-top-v0.21.2-x86_64-apple-darwin.tar.gz"
-      sha256 "98e2da61e4fa40e28cfce8c6dfea61543990b7825b8232c8c30ecc57a3d7e3ef"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.22.0/agent-top-v0.22.0-x86_64-apple-darwin.tar.gz"
+      sha256 "5e7399651e469ac5d2c8f16771e0e127b2a363b5c141b6915d859a35a4059f05"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.21.2/agent-top-v0.21.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "f4e07d4a75f5918d34ba37eb5e523fcd1e56712fd32831f9896ecf7e7ce3521d"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.22.0/agent-top-v0.22.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "9c88a457d7fa966964f3bf274d71c2312eefb593be158846633b0c0a745f8670"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.21.2/agent-top-v0.21.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "5d07e1cf25b3afa5a67d5a643750588dceb5661e8204386fc67931b95b947ef9"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.22.0/agent-top-v0.22.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "5382542d75d33672b105157490afc6efd00fc4f2cf0764567ea85f2f8902d0a8"
     end
   end
 
