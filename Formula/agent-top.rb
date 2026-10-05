@@ -3,28 +3,28 @@
 class AgentTop < Formula
   desc "htop for local coding agents: processes, subagents, MCP servers, tokens and cost"
   homepage "https://github.com/kannandreams/agent-top"
-  version "0.22.1"
+  version "0.23.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.22.1/agent-top-v0.22.1-aarch64-apple-darwin.tar.gz"
-      sha256 "c46bdcbb7c806c066534ab9c461b362dae5a6658dcdfb7499404170a43e84d3c"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.23.0/agent-top-v0.23.0-aarch64-apple-darwin.tar.gz"
+      sha256 "a7029f1711adb5ce5b79cb55a724c2679157d45bc2a622ae002f79b9d8ecb299"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.22.1/agent-top-v0.22.1-x86_64-apple-darwin.tar.gz"
-      sha256 "549bdd8bcdb218b284c482f535f962c5403c64385f56df5a83c764502f04c413"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.23.0/agent-top-v0.23.0-x86_64-apple-darwin.tar.gz"
+      sha256 "2a5051229d28b305fab4c4add4bf114cbf831551bc17a09bf00994f08cf1ae8b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.22.1/agent-top-v0.22.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "508a6feb3f3f9be7d35ee83ac235f2f57265fa269ee266350ea01da3fb22c406"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.23.0/agent-top-v0.23.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "5773f5cdef00b1de70f4f230b879ec2d08b738cb6dfe063047e76199563f97ce"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.22.1/agent-top-v0.22.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "619032176f9837b5d4ad09f0b1673891f4c53db6f343f63ffbd922dba4f7ec7d"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.23.0/agent-top-v0.23.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "8607c120395f79fb6e75d6da7cd17f4619d75f28c2d9c8a04f064a0e6ceaa6da"
     end
   end
 
