@@ -3,28 +3,28 @@
 class AgentTop < Formula
   desc "htop for local coding agents: processes, subagents, MCP servers, tokens and cost"
   homepage "https://github.com/kannandreams/agent-top"
-  version "0.24.0"
+  version "0.25.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.24.0/agent-top-v0.24.0-aarch64-apple-darwin.tar.gz"
-      sha256 "5448cea5f6ffcc054f337ae543133be22e26aba9316d83573c2334bede81d8ee"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.25.0/agent-top-v0.25.0-aarch64-apple-darwin.tar.gz"
+      sha256 "819f4ab17a5291dd2816c272924f10390087eb7a8550ea6234570ca2c15a40a8"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.24.0/agent-top-v0.24.0-x86_64-apple-darwin.tar.gz"
-      sha256 "f98c5761c5e34285423cf320233dd310617431af1b7e226c9602b9ab20a967b0"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.25.0/agent-top-v0.25.0-x86_64-apple-darwin.tar.gz"
+      sha256 "60bb02f539c4669ee548f03976f61a75835047cc1b0c55a3ffeab55762e148ac"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.24.0/agent-top-v0.24.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "f598f04d86e44d964490d87c63958279c7854f887f03014ee6056922fb1e4517"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.25.0/agent-top-v0.25.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "cbe4d47dec6cb4b9a9c1d470c77ba64af7407be0e7a7eb2ffab1ac40280a3a7a"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.24.0/agent-top-v0.24.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c74835b5028557d9743ed0ed2277560cfdaed1cccdcc070c2840350fbc3a66c4"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.25.0/agent-top-v0.25.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "18ac7dbe918b8df5ea45f2a1f8a4f9517b82eed3155bbe9ef94c73768ae229b7"
     end
   end
 
