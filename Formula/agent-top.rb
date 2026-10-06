@@ -3,28 +3,28 @@
 class AgentTop < Formula
   desc "htop for local coding agents: processes, subagents, MCP servers, tokens and cost"
   homepage "https://github.com/kannandreams/agent-top"
-  version "0.25.0"
+  version "0.26.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.25.0/agent-top-v0.25.0-aarch64-apple-darwin.tar.gz"
-      sha256 "819f4ab17a5291dd2816c272924f10390087eb7a8550ea6234570ca2c15a40a8"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.26.0/agent-top-v0.26.0-aarch64-apple-darwin.tar.gz"
+      sha256 "0beafcb4306d52762604706c0378b10ceaca9f64f9d0231dea2659cc8bb4ef18"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.25.0/agent-top-v0.25.0-x86_64-apple-darwin.tar.gz"
-      sha256 "60bb02f539c4669ee548f03976f61a75835047cc1b0c55a3ffeab55762e148ac"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.26.0/agent-top-v0.26.0-x86_64-apple-darwin.tar.gz"
+      sha256 "3bed865f1072f1c947e58c9c30f4b6dbae49b6234f385735a9afd57e6c15a74c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.25.0/agent-top-v0.25.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "cbe4d47dec6cb4b9a9c1d470c77ba64af7407be0e7a7eb2ffab1ac40280a3a7a"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.26.0/agent-top-v0.26.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "d2f329c6b819cbc8915df176b1c8f009e4273e0ae5661e2c8c0fe6488069c02c"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.25.0/agent-top-v0.25.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "18ac7dbe918b8df5ea45f2a1f8a4f9517b82eed3155bbe9ef94c73768ae229b7"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.26.0/agent-top-v0.26.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f3e7bcd699ac778e35c752e2482bdcad067c6d64eadbcf68a0ee71006accea06"
     end
   end
 
