@@ -3,28 +3,28 @@
 class AgentTop < Formula
   desc "htop for local coding agents: processes, subagents, MCP servers, tokens and cost"
   homepage "https://github.com/kannandreams/agent-top"
-  version "0.23.0"
+  version "0.24.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.23.0/agent-top-v0.23.0-aarch64-apple-darwin.tar.gz"
-      sha256 "a7029f1711adb5ce5b79cb55a724c2679157d45bc2a622ae002f79b9d8ecb299"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.24.0/agent-top-v0.24.0-aarch64-apple-darwin.tar.gz"
+      sha256 "5448cea5f6ffcc054f337ae543133be22e26aba9316d83573c2334bede81d8ee"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.23.0/agent-top-v0.23.0-x86_64-apple-darwin.tar.gz"
-      sha256 "2a5051229d28b305fab4c4add4bf114cbf831551bc17a09bf00994f08cf1ae8b"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.24.0/agent-top-v0.24.0-x86_64-apple-darwin.tar.gz"
+      sha256 "f98c5761c5e34285423cf320233dd310617431af1b7e226c9602b9ab20a967b0"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.23.0/agent-top-v0.23.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "5773f5cdef00b1de70f4f230b879ec2d08b738cb6dfe063047e76199563f97ce"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.24.0/agent-top-v0.24.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "f598f04d86e44d964490d87c63958279c7854f887f03014ee6056922fb1e4517"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.23.0/agent-top-v0.23.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "8607c120395f79fb6e75d6da7cd17f4619d75f28c2d9c8a04f064a0e6ceaa6da"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.24.0/agent-top-v0.24.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c74835b5028557d9743ed0ed2277560cfdaed1cccdcc070c2840350fbc3a66c4"
     end
   end
 
