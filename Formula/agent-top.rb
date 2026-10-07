@@ -3,28 +3,28 @@
 class AgentTop < Formula
   desc "htop for local coding agents: processes, subagents, MCP servers, tokens and cost"
   homepage "https://github.com/kannandreams/agent-top"
-  version "0.27.0"
+  version "0.27.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.27.0/agent-top-v0.27.0-aarch64-apple-darwin.tar.gz"
-      sha256 "06bf211fee0e1b90a930b3e3b0c9c0da5b9cbf34d7a535e35caa9476b1c793bd"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.27.1/agent-top-v0.27.1-aarch64-apple-darwin.tar.gz"
+      sha256 "03bc0e662a53d28a492ac1c15f9a1ce960c83dd8bf3686721781fdeef27e936f"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.27.0/agent-top-v0.27.0-x86_64-apple-darwin.tar.gz"
-      sha256 "479bae3a0118efd5d5f0702b6cd8f5cc172d8f31451393c2a2501c8086caf97b"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.27.1/agent-top-v0.27.1-x86_64-apple-darwin.tar.gz"
+      sha256 "b69d9310347d9517a04e72fe618f78e8faae6e00476de35c3589ef88594ff8ba"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.27.0/agent-top-v0.27.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "04964558a72d7eda40ea04cf0396f98bd995d3d01e5781a4e5d57dd3c00c8da2"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.27.1/agent-top-v0.27.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "7cee777776318ed944050319d10219973072c3d002cb1bbe6cf1a862ad064c13"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.27.0/agent-top-v0.27.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "501180c7c0cf054073218d44cd68f90c02e69d63253d76842d7478548d5dfe19"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.27.1/agent-top-v0.27.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "ba8959afd9db146103c1f5150a4c8dc7ded6188da014d3449de239ad8eb73617"
     end
   end
 
