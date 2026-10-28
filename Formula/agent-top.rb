@@ -3,28 +3,28 @@
 class AgentTop < Formula
   desc "htop for local coding agents: processes, subagents, MCP servers, tokens and cost"
   homepage "https://github.com/kannandreams/agent-top"
-  version "0.27.1"
+  version "0.27.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.27.1/agent-top-v0.27.1-aarch64-apple-darwin.tar.gz"
-      sha256 "03bc0e662a53d28a492ac1c15f9a1ce960c83dd8bf3686721781fdeef27e936f"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.27.2/agent-top-v0.27.2-aarch64-apple-darwin.tar.gz"
+      sha256 "32b95a5191f757b2285715ddefba6dd5ee4285f8cae12c2a7e97384d3f36bb44"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.27.1/agent-top-v0.27.1-x86_64-apple-darwin.tar.gz"
-      sha256 "b69d9310347d9517a04e72fe618f78e8faae6e00476de35c3589ef88594ff8ba"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.27.2/agent-top-v0.27.2-x86_64-apple-darwin.tar.gz"
+      sha256 "6d87475eb2fa857af4a1117585b2d42992647f865802ca2bd28d211bda5f6914"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.27.1/agent-top-v0.27.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "7cee777776318ed944050319d10219973072c3d002cb1bbe6cf1a862ad064c13"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.27.2/agent-top-v0.27.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "b19fd93f3e637b41824b684786ded244450155295985e1027aa29803d497aa51"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.27.1/agent-top-v0.27.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ba8959afd9db146103c1f5150a4c8dc7ded6188da014d3449de239ad8eb73617"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.27.2/agent-top-v0.27.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "5f1584ec2dc08902048eec0de2723c890119445e056ed7dfec825ca1e4b15d36"
     end
   end
 
