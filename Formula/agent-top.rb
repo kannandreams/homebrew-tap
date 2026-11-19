@@ -3,28 +3,28 @@
 class AgentTop < Formula
   desc "htop for local coding agents: processes, subagents, MCP servers, tokens and cost"
   homepage "https://github.com/kannandreams/agent-top"
-  version "0.28.0"
+  version "0.29.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.28.0/agent-top-v0.28.0-aarch64-apple-darwin.tar.gz"
-      sha256 "9eabcbdeb46b7ec77d9e7865d6e2195d0bab9693de989128f2a5dc0a7f70cf5b"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.29.0/agent-top-v0.29.0-aarch64-apple-darwin.tar.gz"
+      sha256 "0c2bbbb40fb30a90ee0f383070b7caa697124719064a2f38bcdb6fbd1bcb7c42"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.28.0/agent-top-v0.28.0-x86_64-apple-darwin.tar.gz"
-      sha256 "7d7fb5d40331aa69229595b30de7d99f0b00b4b0d27eea9732ffbba3fa01429c"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.29.0/agent-top-v0.29.0-x86_64-apple-darwin.tar.gz"
+      sha256 "c49909358d51515f2376c5f34f28bd037d87be9cdca8b8b08e253630d42c7093"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.28.0/agent-top-v0.28.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "5805fc6244a5ddddd5e612624d762335419054ada563e15e87a5c97d5e22a8aa"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.29.0/agent-top-v0.29.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "d6f7d406b965d41171d57fb884280b463451e57a95310208c9a7fbadc1b7a48d"
     end
     on_intel do
-      url "https://github.com/kannandreams/agent-top/releases/download/v0.28.0/agent-top-v0.28.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b204d58142accb2b3e83a14411e48c5fa268645492aa417196c2fab8c117f33a"
+      url "https://github.com/kannandreams/agent-top/releases/download/v0.29.0/agent-top-v0.29.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "e0da1ee5ef460e578cb7c75e67f4d27a1fd829330073c603127aee53d6614e3d"
     end
   end
 
